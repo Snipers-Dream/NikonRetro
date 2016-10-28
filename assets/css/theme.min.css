@@ -1,0 +1,120 @@
+/*custom fonts*/
+@font-face { font-family: "FrutiHard"; src: url("../fonts/four.TTF"); }
+@font-face { font-family: "FrutiLight"; src: url("../fonts/one.TTF"); }
+@font-face { font-family: "FrutiBold"; src: url("../fonts/two.TTF"); }
+
+@font-face{
+    font-family:"FrutigerNextW01-LightCn";
+    src:url("../fonts/eae5445d-d2ec-4742-bd7f-f007516b0477.eot?#iefix");
+    src:url("../fonts/eae5445d-d2ec-4742-bd7f-f007516b0477.eot?#iefix") format("eot"),
+    url("../fonts/e9beef83-a4c3-4f1c-a1d1-45da483ea062.woff2") format("woff2"),
+    url("../fonts/463e66e2-e4eb-4ee6-8aef-fb9e18b7b025.woff") format("woff"),
+    url("../fonts/b85ce570-937c-45a8-9ab6-7574bf1374ed.ttf") format("truetype"),
+    url("../fonts/a369207c-7e56-40ac-a9f0-a984070f0643.svg#a369207c-7e56-40ac-a9f0-a984070f0643") format("svg");
+}
+@font-face{
+    font-family:"FrutigerNextW01-Condens";
+    src:url("../fonts/3aabd8f8-de16-4c1d-94fa-1d85cdeca8b5.eot?#iefix");
+    src:url("../fonts/3aabd8f8-de16-4c1d-94fa-1d85cdeca8b5.eot?#iefix") format("eot"),
+    url("../fonts/33de3f05-9ad2-4aa8-8305-953d212ed871.woff2") format("woff2"),
+    url("../fonts/f5206e18-da88-476d-a17e-ac9c580f00c1.woff") format("woff"),
+    url("../fonts/084bc02f-68ac-47c0-8102-0b1b53e8d4ac.ttf") format("truetype"),
+    url("../fonts/eba3b54b-79f9-4236-b2dd-5acf555f20f1.svg#eba3b54b-79f9-4236-b2dd-5acf555f20f1") format("svg");
+}
+@font-face{
+    font-family:"FrutigerNextW01-BoldCn";
+    src:url("../fonts/497c3588-4b93-4f85-bcbc-52af2bdf03df.eot?#iefix");
+    src:url("../fonts/497c3588-4b93-4f85-bcbc-52af2bdf03df.eot?#iefix") format("eot"),
+    url("../fonts/46195450-8eef-4511-ac19-062ed9a6f1a0.woff2") format("woff2"),
+    url("../fonts/78cb2356-22e7-4eae-bbb7-f947f2384d4b.woff") format("woff"),
+    url("../fonts/ac1fbae2-c358-43bd-8789-791cd09a114d.ttf") format("truetype"),
+    url("../fonts/0000e0ba-ee2d-4a44-b4cf-63512287a48c.svg#0000e0ba-ee2d-4a44-b4cf-63512287a48c") format("svg");
+}
+@font-face{
+    font-family:"FrutigerNextW01-HeavyCn";
+    src:url("../fonts/4904ecc3-8863-4be1-858d-c446f0c33578.eot?#iefix");
+    src:url("../fonts/4904ecc3-8863-4be1-858d-c446f0c33578.eot?#iefix") format("eot"),
+    url("../fonts/8c275dca-1114-488a-828d-b32b69ad2a80.woff2") format("woff2"),
+    url("../fonts/a573c5c9-139c-40e2-91eb-3e5bc04a320a.woff") format("woff"),
+    url("../fonts/0219c932-c8a6-47b2-a642-5fa400fda973.ttf") format("truetype"),
+    url("../fonts/5338c78d-52a2-44c6-a583-03f06e786ae1.svg#5338c78d-52a2-44c6-a583-03f06e786ae1") format("svg");
+}
+
+.font-frutiger{ font-family: FrutigerNextW01-LightCn; }
+.font-frutiger-heavy{ font-family:"FrutigerNextW01-HeavyCn"; }
+.font-frutiger-light{ font-family:"FrutigerNextW01-LightCn"; }
+
+.fa{ vertical-align: middle; }
+
+/* Preload */
+#preload_mask{ position: fixed; top:0; left: 0; width: 100%; height: 100%; background: url(../img/logo.png) no-repeat center fixed #FFF; z-index: 1000; }
+
+/* Latest Notice */
+.latest-notice{ background-color: black; color: white; text-align: center; font-size: 1.2em; padding: 10px; font-weight: bold; font-family: "FrutigerNextW01-BoldCn"; }
+.latest-notice .news-line{ color: #ffe500 }
+
+
+.header-lg{ padding: 25px 0; }
+.header-lg .brand-logo{ display: table-cell; vertical-align: bottom; height: 125px; }
+
+/* List Divider */
+.list-divider-after li:after{ content: '|'; display: inline-block; margin-left: 15px; font-size: 18px; color: #777777;  }
+.list-divider-after li:last-child:after{ display: none; }
+
+.icon-twitter{ padding: 10px; background-color: #1da1f2; color: #FFF; transition: all .51s; }
+.icon-twitter:hover{ cursor: pointer; background-color: #aab8c2; color: #e1e8ed; }
+.icon-facebook{ padding: 10px; background-color: #3b5998; color: #FFF; transition: all .51s; }
+.icon-facebook:hover{ cursor: pointer; background-color: #aab8c2; color: #e1e8ed; }
+.icon-youtube{ padding: 10px; background-color: #cd201f; color: #FFF; transition: all .51s; }
+.icon-youtube:hover{ cursor: pointer; background-color: #aab8c2; color: #e1e8ed; }
+.icon-mail{ padding: 10px; background-color: #7ac143; color: #FFF; transition: all .51s; }
+.icon-mail:hover{ cursor: pointer; background-color: #aab8c2; color: #e1e8ed; }
+
+#body-wrapper{ padding: 25px 0; }
+
+/* Nikon Carousel */
+#carousel-nikon{ position: relative; }
+#carousel-nikon .nikon-carousel-navbar{ position: absolute; left: 100px; top: 35px; right: 100px; box-sizing: border-box; background-color: #f0eeeb; color: black; z-index: 1; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-lead{ float: left; background-color: black; color: white; padding: 12px 20px; font-size: 20px; font-weight: bold; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list{ float: left; list-style: none; margin: 0; padding: 0; margin-left: 100px; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li{ display: inline-block; padding: 11px 0; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li:after{ content: '|'; display: inline-block; margin-left:10px; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li:last-child:after{ display: none; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li a{ display: inline-block; padding: 6px 8px; font-size: 13px; text-shadow: 0px 0px 1px rgba(0,0,0,.5); color: black; font-weight: bold; transition: all .5s; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li a:hover{ background-color: #ffe500; text-decoration: none; }
+#carousel-nikon .carousel-inner .item img{ width: 100%; }
+#carousel-nikon .carousel-caption{ left: 3%; text-align: left; width: 33%; }
+
+/* Buttons */
+.btn-flat{ border-radius: 0px; }
+.btn-lg-round{ width: 50px; height: 50px; border-radius: 50%; }
+.btn-yellow, .btn-light{ display: table-cell; vertical-align: middle; }
+.btn-yellow{ background-color: #ffe500; color: black; }
+.btn-light{ background-color: white; color: black; }
+.btn-grey{ background-color: grey; color: white; }
+
+/* Nikon Posts */
+.nikon-posts{ padding: 25px 0; }
+.nikon-posts .post{ box-sizing: border-box; position: relative; }
+.nikon-posts .post .post-image{ position: relative; }
+.nikon-posts .post .post-image img{ width: 100%; }
+.nikon-posts .post .post-tag{ position: absolute; top: 0; left: 0; background-color: #CCC; }
+.nikon-posts .post .post-label{ padding: 8px 12px; font-weight: bold; text-transform: uppercase; font-family: "FrutigerNextW01-BoldCn"; }
+.nikon-posts .post .post-label-dark{ background-color: black; color: #ffe500; }
+.nikon-posts .post .post-label-yellow{ background-color: #ffe500; color: black; }
+.nikon-posts .post .post-overlay{ position: absolute; left: 0; bottom: 0; max-width: 65%; padding: 0px 0px 15px 15px;}
+.nikon-posts .post .post-btn{ position: absolute; right: 25px; bottom: 25px; }
+.nikon-posts .post .post-title{ color: white; font-family: "FrutigerNextW01-LightCn"; }
+.nikon-posts .post .post-header, .nikon-posts .post .post-footer{ background-color: #eee; padding: 8px 10px; }
+
+/* Helping Classes */
+.width-100{ width: 90% !important; }
+.text-white{ color: white; }
+.text-yellow{ color: #ffe500; }
+.text-dark{ color: black; }
+.top-right{ top: 30px; right: 0px !important; }
+.m-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+.d-block{ display: block; }
+.text-11{ font-size: 11px; }
+
+footer .list-inline li:before{ content: '>'; display: inline-block; background-color: #444; color: white; width: 15px; height: 15px; border-radius: 50%; font-size: 9px; text-align: center; line-height: 16px; margin-right: 15px; }
