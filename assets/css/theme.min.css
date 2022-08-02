@@ -51,7 +51,7 @@
 
 /* Latest Notice */
 .latest-notice{ background-color: black; color: white; text-align: center; font-size: 1.2em; padding: 10px; font-weight: bold; font-family: "FrutigerNextW01-BoldCn"; }
-.latest-notice .news-line{ color: #ffe500 }
+.latest-notice .news-line{ color: #1da0f2ac }
 
 
 .header-lg{ padding: 25px 0; }
@@ -81,7 +81,7 @@
 #carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li:after{ content: '|'; display: inline-block; margin-left:10px; }
 #carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li:last-child:after{ display: none; }
 #carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li a{ display: inline-block; padding: 6px 8px; font-size: 13px; text-shadow: 0px 0px 1px rgba(0,0,0,.5); color: black; font-weight: bold; transition: all .5s; }
-#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li a:hover{ background-color: #ffe500; text-decoration: none; }
+#carousel-nikon .nikon-carousel-navbar > .nikon-nav-list li a:hover{ background-color: #1da0f2ac; text-decoration: none; }
 #carousel-nikon .carousel-inner .item img{ width: 100%; }
 #carousel-nikon .carousel-caption{ left: 3%; text-align: left; width: 33%; }
 
@@ -89,7 +89,7 @@
 .btn-flat{ border-radius: 0px; }
 .btn-lg-round{ width: 50px; height: 50px; border-radius: 50%; }
 .btn-yellow, .btn-light{ display: table-cell; vertical-align: middle; }
-.btn-yellow{ background-color: #ffe500; color: black; }
+.btn-yellow{ background-color: #1da0f2ac; color: black; }
 .btn-light{ background-color: white; color: black; }
 .btn-grey{ background-color: grey; color: white; }
 
@@ -100,8 +100,8 @@
 .nikon-posts .post .post-image img{ width: 100%; }
 .nikon-posts .post .post-tag{ position: absolute; top: 0; left: 0; background-color: #CCC; }
 .nikon-posts .post .post-label{ padding: 8px 12px; font-weight: bold; text-transform: uppercase; font-family: "FrutigerNextW01-BoldCn"; }
-.nikon-posts .post .post-label-dark{ background-color: black; color: #ffe500; }
-.nikon-posts .post .post-label-yellow{ background-color: #ffe500; color: black; }
+.nikon-posts .post .post-label-dark{ background-color: black; color: #1da0f2ac; }
+.nikon-posts .post .post-label-yellow{ background-color: #1da0f2ac; color: black; }
 .nikon-posts .post .post-overlay{ position: absolute; left: 0; bottom: 0; max-width: 65%; padding: 0px 0px 15px 15px;}
 .nikon-posts .post .post-btn{ position: absolute; right: 25px; bottom: 25px; }
 .nikon-posts .post .post-title{ color: white; font-family: "FrutigerNextW01-LightCn"; }
@@ -110,7 +110,7 @@
 /* Helping Classes */
 .width-100{ width: 90% !important; }
 .text-white{ color: white; }
-.text-yellow{ color: #ffe500; }
+.text-yellow{ color: #1da0f2ac; }
 .text-dark{ color: black; }
 .top-right{ top: 30px; right: 0px !important; }
 .m-tb-30{ margin-top: 30px; margin-bottom: 30px; }
